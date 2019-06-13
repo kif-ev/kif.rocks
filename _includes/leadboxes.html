@@ -1,0 +1,18 @@
+<!--   Lead link boxes (1 per row)   -->
+<div class="row leadrow">
+    {% for column in site.data.links_lead %}
+    <div class="col s12 m12 l12">
+        <div class="card hoverable">
+        <a class="clickable-card" href="{{ column.url }}">
+            <div class="card-image {{ column.color }}" style="height: 80px;">
+            <span class="card-title">{{ column.title }}</span>
+            <button class="btn-floating halfway-fab white"><i class="material-icons {{ column.color }}-text">{{ column.icon }}</i></button>
+            </div>
+            <div class="card-content">
+            {{ column.description }}
+            </div>
+        </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

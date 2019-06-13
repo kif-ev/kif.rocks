@@ -1,0 +1,14 @@
+- url: 'https://wiki.kif.rocks'
+  title: 'Wiki der KIF'
+  icon: 'description'
+  description: '
+    Das KIF-Wiki enthält alle wichtigen Informationen rund um die nächste KIF. Hier findest du unter anderem Antworten auf folgende Fragen:
+    <ul>
+    <li>Was ist eigentlich die KIF?</li>
+    <li>Wie melde ich mich zur KIF an?</li>
+    <li>Was sind die aktuellen Themen der KIF</li>
+    <li>Wie erreiche ich das Orga-Team der nächsten KIF?</li>
+    </ul>
+    Außerdem findest du hier die Protokolle und Resolutionen der bisherigen Konferenzen.
+    '
+  color: 'orange'

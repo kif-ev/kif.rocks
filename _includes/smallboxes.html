@@ -1,0 +1,20 @@
+<!--   Small link boxes (3 per row)   -->
+<div class="row smallrow">
+    {% for column in site.data.links_small %}
+    <div class="col s12 m6 l4">
+        <div class="card hoverable">
+        <a class="clickable-card" href="{{ column.url }}">
+            <div class="card-image {{ column.color }}" style="height: 80px;">
+            <span class="card-title">{{ column.title }}</span>
+            <button class="btn-floating halfway-fab white"><i class="material-icons {{ column.color }}-text">{{ column.icon }}</i></button>
+            </div>
+            <div class="card-content">
+            {{ column.description }}
+            </div>
+        </a>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="fillcol">
+    </div>
+</div>

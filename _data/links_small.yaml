@@ -1,0 +1,36 @@
+- url: 'https://md.kif.rocks'
+  title: 'CodiMD'
+  icon: 'notes'
+  description: 'HackMD ist eine Plattform zum gemeinsamen Schreiben von Notizen. Diese benutzen wir bei der KIF beispielsweise zum Protokollieren der Arbeitskreise.'
+  color: 'red'
+
+- url: 'https://gallery.kif.rocks'
+  title: 'Bildergalerie'
+  icon: 'photo'
+  description: 'In der Bildergalerie sammeln wir schöne Fotos von der KIF. Die Galerie ist unterteilt in einen öffentlichen und einen privaten, nur für die Teilnehmer zugänglichen Bereich.'
+  color: 'pink'
+
+- url: 'https://mm.dief.im/listinfo/kif-l'
+  title: 'Mailingliste'
+  icon: 'email'
+  description: 'Diese offene Mailingliste für KIFfel und Interessierte wird hauptsächlich zur Ankündigung von KIFs und für die KIF bzw. KIFfel potentiell interessante Veranstaltungen genutzt.'
+  color: 'purple'
+
+- url: 'https://riot.kif.rocks'
+  title: 'Matrix/Riot'
+  icon: 'chat'
+  description: 'Ende-zu-Ende-verschlüsselter und föderierter Chat. Der Link führt zum Riot-Webclient.'
+  color: 'deep-purple'
+
+- url: 'https://toot.kif.rocks'
+  title: 'Mastodon'
+  icon: 'chat'
+  description: 'Ein freies und föderiertes soziales Netzwerk. Funktioniert in etwa so, wie dieses Netzwerk mit dem blauen Vogel.'
+  color: 'indigo'
+
+- url: 'https://gitlab.fachschaften.org/kifev'
+  title: 'Gitlab-Projekte der KIF'
+  icon: 'developer_mode'
+  description: 'Im Rahmen der KIF wurden diverse (Software-)Projekte erstellt, welche im Gitlab verwaltet werden.'
+  color: 'blue'
+
