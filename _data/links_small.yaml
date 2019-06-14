@@ -28,7 +28,7 @@
   description: 'Ein freies und föderiertes soziales Netzwerk. Funktioniert in etwa so, wie dieses Netzwerk mit dem blauen Vogel.'
   color: 'indigo'
 
-- url: 'https://gitlab.fachschaften.org/kifev'
+- url: 'https://gitlab.fachschaften.org/kif'
   title: 'Gitlab-Projekte der KIF'
   icon: 'developer_mode'
   description: 'Im Rahmen der KIF wurden diverse (Software-)Projekte erstellt, welche im Gitlab verwaltet werden.'
