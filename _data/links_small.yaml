@@ -1,6 +1,6 @@
 - url: 'https://md.kif.rocks'
   title: 'CodiMD'
-  icon: 'notes'
+  icon: 'note'
   description: 'CodiMD ist eine Plattform zum gemeinsamen Schreiben von Notizen. Diese benutzen wir bei der KIF beispielsweise zum Protokollieren der Arbeitskreise.'
   color: 'red'
 
