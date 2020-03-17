@@ -37,5 +37,5 @@
 - url: 'https://meet.kif.rocks'
   title: 'Jitsi Meet'
   icon: 'video_call'
-  description: 'Videokonfenrezen einfach im Browser starten. Kann auch ohne Bild nur für Ton genutzt werden.'
+  description: 'Videokonferenzen einfach im Browser starten. Kann auch ohne Bild nur für Ton genutzt werden.'
   color: 'green'
