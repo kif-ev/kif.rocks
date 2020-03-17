@@ -34,3 +34,8 @@
   description: 'Im Rahmen der KIF wurden diverse (Software-)Projekte erstellt, welche im Gitlab verwaltet werden.'
   color: 'blue'
 
+- url: 'https://meet.kif.rocks'
+  title: 'Jitsi Meet'
+  icon: 'message_video'
+  description: 'Videokonfenrezen einfach im Browser starten.'
+  color: 'green'
