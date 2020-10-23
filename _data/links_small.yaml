@@ -16,10 +16,10 @@
   description: 'Diese offene Mailingliste für KIFfel und Interessierte wird hauptsächlich zur Ankündigung von KIFs und für die KIF bzw. KIFfel potentiell interessante Veranstaltungen genutzt.'
   color: 'purple'
 
-- url: 'https://riot.kif.rocks'
-  title: 'Matrix/Riot'
+- url: 'https://element.kif.rocks'
+  title: 'Matrix/Element'
   icon: 'chat'
-  description: 'Ende-zu-Ende-verschlüsselter und föderierter Chat. Der Link führt zum Riot-Webclient.'
+  description: 'Ende-zu-Ende-verschlüsselter und föderierter Chat. Der Link führt zum Element-Webclient.'
   color: 'deep-purple'
 
 - url: 'https://toot.kif.rocks'
