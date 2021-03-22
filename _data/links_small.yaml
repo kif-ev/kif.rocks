@@ -1,7 +1,7 @@
 - url: 'https://md.kif.rocks'
-  title: 'CodiMD'
+  title: 'HedgeDoc'
   icon: 'note'
-  description: 'CodiMD ist eine Plattform zum gemeinsamen Schreiben von Notizen. Diese benutzen wir bei der KIF beispielsweise zum Protokollieren der Arbeitskreise.'
+  description: 'HedgeDoc (ehemals CodiMD) ist eine Plattform zum gemeinsamen Schreiben von Notizen. Diese benutzen wir bei der KIF beispielsweise zum Protokollieren der Arbeitskreise.'
   color: 'red'
 
 - url: 'https://kif.fsinf.de/gallery3/'
