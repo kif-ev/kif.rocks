@@ -10,10 +10,10 @@
   description: 'In der Bildergalerie sammeln wir schöne Fotos von der KIF. Die Galerie ist unterteilt in einen öffentlichen und einen privaten, nur für die Teilnehmer zugänglichen Bereich.'
   color: 'pink'
 
-- url: 'https://mm.dief.im/listinfo/kif-l'
-  title: 'Mailingliste'
+- url: 'https://wiki.kif.rocks/wiki/Software:Mailinglisten'
+  title: 'Mailinglisten'
   icon: 'email'
-  description: 'Diese offene Mailingliste für KIFfel und Interessierte wird hauptsächlich zur Ankündigung von KIFs und für die KIF bzw. KIFfel potentiell interessante Veranstaltungen genutzt.'
+  description: 'Mailinglisten für KIFfel, mit Ankündigungen zur KIF, Diskussionen um die KIF, uvm.'
   color: 'purple'
 
 - url: 'https://element.kif.rocks'
