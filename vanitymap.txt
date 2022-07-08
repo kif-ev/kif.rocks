@@ -1,0 +1,9 @@
+##
+## vanitymap für kif.rocks
+## Für externe Links folgendes Format nutzen:
+## /tix https://tix.kif.rocks
+## Für interne Links/Aliase folgendes Format nutzen:
+## /pretix /tix
+##
+
+/tix https://tix.kif.rocks
