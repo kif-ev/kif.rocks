@@ -5,24 +5,51 @@ variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
-before_script:
-  - bundle install
+shortlinks:test:
+  stage: test
+  image:
+    registry.gitlab.fachschaften.org/tudo-fsinfo/admin/gitlab-pages-shortlinks:latest
+  script: shortlinks generate -c vanitymap.txt
+  except:
+    - main
 
 test:
   stage: test
+  dependencies:
+    - shortlinks:test
+  before_script:
+    - bundle install
   script:
     - bundle exec jekyll build -d test
   artifacts:
+    expire_in: 1h
     paths:
       - test
   except:
     - main
 
+shortlinks:deploy:
+  stage: deploy
+  image:
+    registry.gitlab.fachschaften.org/tudo-fsinfo/admin/gitlab-pages-shortlinks:latest
+  script: shortlinks generate vanitymap.txt
+  artifacts:
+    expire_in: 1h
+    paths:
+      - public
+  only:
+    - main
+
 pages:
   stage: deploy
+  dependencies:
+    - shortlinks:deploy
+  before_script:
+    - bundle install
   script:
     - bundle exec jekyll build -d public
   artifacts:
+    expire_in: 1h
     paths:
       - public
   only:
