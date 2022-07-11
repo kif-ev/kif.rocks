@@ -13,7 +13,7 @@ shortlinks:test:
   except:
     - main
 
-test:
+jekyll:test:
   stage: test
   dependencies:
     - shortlinks:test
@@ -36,10 +36,8 @@ shortlinks:generate:
   only:
     - main
 
-pages:
-  stage: deploy
-  dependencies:
-    - shortlinks:generate
+jekyll:build:
+  stage: build
   before_script:
     - bundle install
   script:
