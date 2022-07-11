@@ -28,8 +28,8 @@ test:
   except:
     - main
 
-shortlinks:deploy:
-  stage: deploy
+shortlinks:generate:
+  stage: build
   image:
     registry.gitlab.fachschaften.org/tudo-fsinfo/admin/gitlab-pages-shortlinks:latest
   script: shortlinks generate vanitymap.txt
@@ -43,7 +43,7 @@ shortlinks:deploy:
 pages:
   stage: deploy
   dependencies:
-    - shortlinks:deploy
+    - shortlinks:generate
   before_script:
     - bundle install
   script:
