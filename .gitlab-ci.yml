@@ -21,10 +21,6 @@ test:
     - bundle install
   script:
     - bundle exec jekyll build -d test
-  artifacts:
-    expire_in: 1h
-    paths:
-      - test
   except:
     - main
 
