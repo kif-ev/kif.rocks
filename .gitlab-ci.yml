@@ -55,5 +55,9 @@ pages:
     - jekyll:build
     - shortlinks:generate
   script: "true"
+  artifacts:
+    expire_in: 1h
+    paths:
+      - public
   only:
     - main
