@@ -54,6 +54,6 @@ pages:
   dependencies:
     - jekyll:build
     - shortlinks:generate
-  script: true
+  script: "true"
   only:
     - main
