@@ -48,3 +48,12 @@ jekyll:build:
       - public
   only:
     - main
+
+pages:
+  stage: deploy
+  dependencies:
+    - jekyll:build
+    - shortlinks:generate
+  script: true
+  only:
+    - main
