@@ -31,7 +31,7 @@
 - url: 'https://gitlab.fachschaften.org/kif'
   title: 'Gitlab-Projekte der KIF'
   icon: 'developer_mode'
-  description: 'Im Rahmen der KIF wurden diverse (Software-)Projekte erstellt, welche im Gitlab verwaltet werden.'
+  description: 'Im Rahmen der KIF wurden diverse (Software&#8209;)Projekte erstellt, welche im Gitlab verwaltet werden.'
   color: 'blue'
 
 - url: 'https://meet.kif.rocks'
