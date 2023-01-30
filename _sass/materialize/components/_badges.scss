@@ -36,11 +36,11 @@ nav ul a span.badge {
 
 // Line height centering
 .collection-item span.badge {
-  margin-top: calc(#{$collection-line-height / 2} - #{$badge-height / 2});
+  margin-top: calc($collection-line-height / 2 - $badge-height / 2);
 }
 .collapsible span.badge {
-  margin-top: calc(#{$collapsible-line-height / 2} - #{$badge-height / 2});
+  margin-top: calc($collapsible-line-height / 2 - $badge-height / 2);
 }
 .side-nav span.badge {
-  margin-top: calc(#{$sidenav-line-height / 2} - #{$badge-height / 2});
+  margin-top: calc($sidenav-line-height / 2 - $badge-height / 2);
 }
