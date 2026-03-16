@@ -2,23 +2,22 @@
 <div class="row leadrow">
     <div class="col s12 m12 l12">
         <div class="card hoverable">
-          <img class="right responsive-img" src="assets/kif540_logo.png">
+          <img class="right responsive-img" src="{{ site.data.kif.logo }}">
             <div class="card-content" style="min-height: 140px;">
-                <span class="card-title">KIF 54,0 an der RWTH Aachen</span>
-                <p>
-                    Die aktuelle KIF findet vom 21.05.&nbsp;bis zum 25.05.2026 an der RWTH Aachen statt.
-                </p>
+                <span class="card-title">{{ site.data.kif.title }}</span>
+                <p>{{ site.data.kif.description }}</p>
             </div>
             <div class="card-action">
-                <a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://wiki.kif.rocks/wiki/KIF540:Einladung"><i class="material-icons left">announcement</i>Einladung</a>
-                {% comment %}<a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://wiki.kif.rocks/w/images/a/ac/Einladung_kif490_en.pdf"><i class="material-icons left">announcement</i>Invitation</a>{% endcomment %}
-                {% comment %}<a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://tix.die-kifkoma.rocks/2025"><i class="material-icons left">confirmation_number</i>Anmeldung</a>{% endcomment %}
-                <a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://wiki.kif.rocks/wiki/KIF540:Hauptseite"><i class="material-icons left">description</i>Hauptseite</a>
-                <a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://wiki.kif.rocks/wiki/Software:Techsupport"><i class="material-icons left">info</i>Tech-Support</a>
-                <a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://ak.kif.rocks/KIF540/"><i class="material-icons left">today</i>AK-Plan</a>
-                <a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://engel.fsmpi.rwth-aachen.de/"><i class="material-icons left">favorite</i>Engelsystem</a>
-                <a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="https://apfifoges.kif.rocks/"><i class="material-icons left">note</i>Apfifoges</a>
-                {% comment %}<a style="margin-top: 5px;" class="waves-effect waves-light btn green" href="http://moerderspiel.org/kif475"><i class="material-icons left">videogame_asset</i>Mörderspiel</a>{% endcomment %}
+                {% for link in site.data.kif.links %}
+                <a
+                    style="margin-top: 5px;"
+                    class="waves-effect waves-light btn green"
+                    href="{{ link.url }}"
+                >
+                    <i class="material-icons left">{{ link.icon }}</i>
+                    {{ link.title }}
+                </a>
+                {% endfor %}
             </div>
         </div>
     </div>

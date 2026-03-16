@@ -1,0 +1,36 @@
+---
+
+title: KIF 54,0 an der RWTH Aachen
+description: >-
+  Die aktuelle KIF findet vom 21.05.&nbsp;bis zum 25.05.2026 an der RWTH Aachen
+  statt.
+logo: assets/kif540_logo.png
+
+links:
+  - url: "https://wiki.kif.rocks/wiki/KIF540:Einladung"
+    icon: announcement
+    title: Einladung
+  # - url: "https://wiki.kif.rocks/w/images/a/ac/Einladung_kif490_en.pdf"
+  #   icon: announcement
+  #   title: Invitation
+  # - url: "https://tix.die-kifkoma.rocks/2025"
+  #   icon: confirmation_number
+  #   title: Anmeldung
+  - url: "https://wiki.kif.rocks/wiki/KIF540:Hauptseite"
+    icon: description
+    title: Hauptseite
+  - url: "https://wiki.kif.rocks/wiki/Software:Techsupport"
+    icon: info
+    title: Tech-Support
+  - url: "https://ak.kif.rocks/KIF540/"
+    icon: today
+    title: AK-Plan
+  - url: "https://engel.fsmpi.rwth-aachen.de/"
+    icon: favorite
+    title: Engelsystem
+  - url: "https://apfifoges.kif.rocks/"
+    icon: note
+    title: Apfifoges
+  # - url: "http://moerderspiel.org/kif475"
+  #   icon: videogame_asset
+  #   title: Mörderspiel
